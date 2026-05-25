@@ -1,1 +1,25 @@
-/bin/
+# === Compiled classes ===
+bin/
+target/
+out/
+
+# === Eclipse metadata ===
+.classpath
+.project
+.settings/
+
+# === Java ===
+*.class
+*.log
+
+# === OS files ===
+.DS_Store
+Thumbs.db
+
+# === JavaFX cache ===
+*/module-info.class
+
+# === Backup files ===
+*.tmp
+*.bak
+*.swp
