@@ -26,9 +26,13 @@ https://github.com/Just1si/CalculadoraJava1DAM/releases/latest
 ## 📂 Estructura del proyecto
 
 src/
+
 └── calculadora/
+
 ├── Main.java
+
 ├── CalcController.java
+
 └── calculadora.fxml
 
 
