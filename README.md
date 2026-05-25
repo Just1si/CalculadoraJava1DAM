@@ -54,13 +54,14 @@ Configura los módulos JavaFX en los argumentos de ejecución:
 En la sección **Releases** encontrarás un ZIP con:
 
 - `Calculadora.jar`
-- `run.bat`
+- `calculadoraEjecutable.bat`
+- `readme.txt`
 
 Pasos:
 
 1. Descarga el ZIP desde **Releases**
 2. Descomprímelo
-3. Doble clic en `run.bat`
+3. Doble clic en `calculadoraEjecutable.bat`
 4. La calculadora se abrirá automáticamente
 
 ---
