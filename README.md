@@ -12,10 +12,6 @@ https://github.com/Just1si/CalculadoraJava1DAM/releases/latest
 
 <img width="508" height="429" alt="image" src="https://github.com/user-attachments/assets/6cef0168-a97a-4b1a-9e07-576c5ff03e8e" />
 
-
-
-
-
 ## ✨ Características
 
 - Operaciones básicas: suma, resta, multiplicación y división  
@@ -24,12 +20,6 @@ https://github.com/Just1si/CalculadoraJava1DAM/releases/latest
 - Botón de borrado (C)  
 - Interfaz clara y minimalista  
 - Ejecutable fuera del IDE (Windows)
-
----
-
-## 🖼️ Vista previa
-
-*(Añadir captura cuando quieras)*
 
 ---
 
