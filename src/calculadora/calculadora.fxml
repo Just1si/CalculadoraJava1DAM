@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="calculadora.CalcController">
+
+    <top>
+        <TextField fx:id="pantalla"
+                   editable="false"
+                   alignment="CENTER_RIGHT"
+                   style="-fx-font-size: 24px; -fx-padding: 10;" />
+    </top>
+
+    <center>
+        
+	<GridPane hgap="10" vgap="10" alignment="CENTER">
+    	<padding>
+        	<Insets top="10" right="10" bottom="10" left="10"/>
+    	</padding>
+
+            <!-- Fila 1 -->
+            <Button text="7" GridPane.rowIndex="0" GridPane.columnIndex="0" onAction="#onButton"/>
+            <Button text="8" GridPane.rowIndex="0" GridPane.columnIndex="1" onAction="#onButton"/>
+            <Button text="9" GridPane.rowIndex="0" GridPane.columnIndex="2" onAction="#onButton"/>
+            <Button text="/" GridPane.rowIndex="0" GridPane.columnIndex="3" onAction="#onButton"/>
+
+            <!-- Fila 2 -->
+            <Button text="4" GridPane.rowIndex="1" GridPane.columnIndex="0" onAction="#onButton"/>
+            <Button text="5" GridPane.rowIndex="1" GridPane.columnIndex="1" onAction="#onButton"/>
+            <Button text="6" GridPane.rowIndex="1" GridPane.columnIndex="2" onAction="#onButton"/>
+            <Button text="*" GridPane.rowIndex="1" GridPane.columnIndex="3" onAction="#onButton"/>
+
+            <!-- Fila 3 -->
+            <Button text="1" GridPane.rowIndex="2" GridPane.columnIndex="0" onAction="#onButton"/>
+            <Button text="2" GridPane.rowIndex="2" GridPane.columnIndex="1" onAction="#onButton"/>
+            <Button text="3" GridPane.rowIndex="2" GridPane.columnIndex="2" onAction="#onButton"/>
+            <Button text="-" GridPane.rowIndex="2" GridPane.columnIndex="3" onAction="#onButton"/>
+
+            <!-- Fila 4 -->
+            <Button text="0" GridPane.rowIndex="3" GridPane.columnIndex="0" onAction="#onButton"/>
+            <Button text="." GridPane.rowIndex="3" GridPane.columnIndex="1" onAction="#onButton"/>
+            <Button text="=" GridPane.rowIndex="3" GridPane.columnIndex="2" onAction="#onButton"/>
+            <Button text="+" GridPane.rowIndex="3" GridPane.columnIndex="3" onAction="#onButton"/>
+
+            <!-- Fila 5 -->
+            <Button text="C" GridPane.rowIndex="4" GridPane.columnIndex="0" onAction="#onClear"/>
+       </GridPane>
+    </center>
+
+</BorderPane>
