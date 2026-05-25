@@ -5,6 +5,17 @@ Este proyecto forma parte de mi aprendizaje práctico en desarrollo de interface
 
 ---
 
+👉 **Descargar ejecutable para Windows**  
+https://github.com/Just1si/CalculadoraJava1DAM/releases/latest
+
+## 🖼️ Vista previa
+
+<img width="508" height="429" alt="image" src="https://github.com/user-attachments/assets/6cef0168-a97a-4b1a-9e07-576c5ff03e8e" />
+
+
+
+
+
 ## ✨ Características
 
 - Operaciones básicas: suma, resta, multiplicación y división  
